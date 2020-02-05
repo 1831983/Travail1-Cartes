@@ -22,5 +22,6 @@ class Joueur
 //	Joueur();
 //	
 //
+	//
 };
 #endif
