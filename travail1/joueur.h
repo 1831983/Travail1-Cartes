@@ -6,8 +6,21 @@ using namespace std;
 #define JoueurH
 
 const int maxCartesAJouer = 26;
+
 class Joueur
 {
 
+//	string nom;
+//
+//	int nombreDeVictoire;
+//	int nombreDeDefaite;
+//
+//	Carte* mainDuJoueur;
+//
+//public:
+//
+//	Joueur();
+//	
+//
 };
 #endif

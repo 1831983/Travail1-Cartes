@@ -6,7 +6,25 @@ const int maxCartes = 52;
 
 class Donnees
 {
-	public:
+	//public:
+
+	//	int valeur;
+	//	
+	//	string atout;
+
+
+
+	//
+	//public:
+	//
+	//	Donnees();
+
+	//	Donnees(int inValeur, string inAtout);
+	//	
+	
+
+
+
 
 };
 
