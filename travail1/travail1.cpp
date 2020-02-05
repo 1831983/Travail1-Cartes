@@ -14,6 +14,11 @@ void Jouer();
 
 int main() 
 {
+
+	
+
+
+
 	char fini = 'n';
 	srand((unsigned)time(NULL));
 	InitialiserJoueurs();
