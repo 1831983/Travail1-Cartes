@@ -24,6 +24,9 @@ public:
 	Joueur();
 
 	Carte* getCarte(int indiceTableau);
+	
+
+
 
 	string getNom() const;
 
@@ -35,7 +38,7 @@ public:
 	void setNom(string inNom);
 	void AjouterVictoire();
 	void AjouterDefaite();
-
+	void RetirerCartes();
 
 };
 #endif

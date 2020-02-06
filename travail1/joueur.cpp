@@ -12,6 +12,8 @@ Joueur::Joueur()
 	}
 }
 
+
+
 Carte* Joueur::getCarte(int indiceTableau)
 {
 	return mainDuJoueur[indiceTableau];
@@ -47,4 +49,10 @@ void Joueur::AjouterDefaite()
 	nombreDeDefaite++;
 }
 
-
+void Joueur::RetirerCartes()
+{
+	for (int i = 0; i < maxCartesAJouer ; i++)
+	{
+		mainDuJoueur[i] = NULL;
+	}
+}
