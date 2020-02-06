@@ -49,6 +49,17 @@ void Joueur::AjouterDefaite()
 	nombreDeDefaite++;
 }
 
+void Joueur::AjouterCartes(Carte* inCarte)
+{
+	int indice = 0;
+
+	while (mainDuJoueur[indice] != NULL)
+	{
+		indice++;		
+	}
+	mainDuJoueur[indice] = inCarte;
+}
+
 void Joueur::RetirerCartes()
 {
 	for (int i = 0; i < maxCartesAJouer ; i++)

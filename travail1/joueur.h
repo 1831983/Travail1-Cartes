@@ -38,6 +38,7 @@ public:
 	void setNom(string inNom);
 	void AjouterVictoire();
 	void AjouterDefaite();
+	void AjouterCartes(Carte* inCarte);
 	void RetirerCartes();
 
 };

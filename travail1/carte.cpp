@@ -10,6 +10,9 @@ void Carte::InitialiserCarte(int inValeur, string inAtout)
 	valeur = inValeur;
 	atout = inAtout;
 }
+
+
+
 int Carte::GetValeur() const
 {
   return valeur;

@@ -6,25 +6,22 @@ const int maxCartes = 52;
 
 class Donnees
 {
-	//public:
+private:
 
-	//	int valeur;
-	//	
-	//	string atout;
-
-
-
-	//
-	//public:
-	//
-	//	Donnees();
-
-	//	Donnees(int inValeur, string inAtout);
-	//	
 	
 
+public:
+
+	Donnees();
+
+	Carte PaquetDeCartes[maxCartes];
+
+	Joueur Joueur1;
+	Joueur Joueur2;
 
 
+
+void InitialiserCartes();
 
 };
 
