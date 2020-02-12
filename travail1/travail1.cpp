@@ -116,15 +116,28 @@ int DemanderNombreDeCartes()
 
 
 	cout << "\nCombien de cartes a distribuer ? (Max 26)\n";
-	cin >> MaxCarteADistribuer;
-	cout << "Nombre de cartes a distribuer :\n" << MaxCarteADistribuer << "\n\n";
+	/*cin >> MaxCarteADistribuer;*/
 	
-	return MaxCarteADistribuer;
 
-		//if (MaxCarteADistribuer > 26)
-		//{
-		//	cout << "Erreur, Maximum de cartes a distribuer : 26";
-		//	Jouer();
+	while (!((std::cin >> MaxCarteADistribuer) && (MaxCarteADistribuer > 0) && (MaxCarteADistribuer < 27)))
+	{
+		if (std::cin.fail())
+		{
+			std::cout << "Saisie incorrecte, recommencez : ";
+			std::cin.clear();
+			std::cin.ignore(1500, '\n');
+		}
+		else
+		{
+			std::cout << "Le chiffre n'est pas entre 1 et 26, recommencez : ";
+		}
+	}
+cout << "Nombre de cartes a distribuer :\n" << MaxCarteADistribuer << "\n\n";
+
+
+
+
+return MaxCarteADistribuer;
 }
 
 
