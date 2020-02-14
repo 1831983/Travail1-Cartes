@@ -259,16 +259,16 @@ void AfficherGrandGagnant()
 
 	if (leJeu.Joueur1.getNombreDeVictoire() > leJeu.Joueur2.getNombreDeVictoire())
 	{
-		cout << "Le grand gagnant de la partie est : " << leJeu.Joueur1.getNom() << "\n";
+		cout << "Le grand gagnant de la partie est : " << leJeu.Joueur1.getNom() << " avec un total de" << " " << leJeu.Joueur1.getNombreDeVictoire() << " victoires. \n";
 	}
 
 	else if (leJeu.Joueur1.getNombreDeVictoire() == leJeu.Joueur2.getNombreDeVictoire())
 	{
-		cout << "Egalite entre : " << leJeu.Joueur1.getNom() << " et " << leJeu.Joueur2.getNom();
+		cout << "Egalite entre : " << leJeu.Joueur1.getNom() << " et " << leJeu.Joueur2.getNom() << "\n\n";
 	}
 	else
 	{
-		cout << "Le grand gagnant de la partie est : " << leJeu.Joueur2.getNom() << "\n";
+		cout << "Le grand gagnant de la partie est : " << leJeu.Joueur2.getNom() << " avec un total de" << " " << leJeu.Joueur2.getNombreDeVictoire() << " victoires. \n";
 	}
 
 	
